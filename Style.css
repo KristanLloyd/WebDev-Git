@@ -23,8 +23,6 @@ body {
   overflow: hidden;
 }
 
-
-
 .images::before {
   content: "";
   position: absolute;
@@ -34,7 +32,6 @@ body {
   background: linear-gradient(to top, #1c0522, transparent);
   z-index: 1000;
 }
-
 
 .images img {
   position: absolute;
@@ -114,11 +111,10 @@ a:hover {
   background: #1c0522;
 }
 
-p{
+p {
   align-items: center;
 }
-.space
-{
+.space {
   content: "\00a0";
 }
 .introduction {
@@ -127,13 +123,13 @@ p{
 }
 
 #about {
-font-size: 30px;
-color: rgb(247, 239, 227);
-text-align: center;
+  font-size: 30px;
+  color: rgb(247, 239, 227);
+  text-align: center;
 }
-.profile1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.profile1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
